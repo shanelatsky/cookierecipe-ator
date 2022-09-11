@@ -1,0 +1,13 @@
+NumberOfCookies = float(input('Enter number of cookies:'))
+sugar = 1.5
+butter = 1.0
+flour = 2.75
+cookies = 48
+
+## Math behind final number of ingredients
+
+sugarfinal = (sugar * NumberOfCookies) /cookies
+butterfinal = (butter * NumberOfCookies) /cookies
+flourfinal = (flour * NumberOfCookies) /cookies
+
+print('You need ' + str(sugarfinal) + ' cups of sugar, ' + str(butterfinal) + ' cups of butter, and ' + str(flourfinal) + ' cups of flour.')
